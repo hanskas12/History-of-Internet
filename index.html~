@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>History of Internet</title>
+		<link rel="stylesheet" href="style2.css">
+	</head>
+	<body>
+		<!--<div class="header">
+			<div class="banner">
+				<h1>History</h1>
+			</div>
+			<div class="buttons">
+				<button onclick="window.location.href='#'" class="btn">Home</button>
+				<button onclick="window.location.href='#'" class="btn">About</button>
+				<button onclick="window.location.href='#'" class="btn">Contact Us</button>
+			</div>
+		</div>-->
+		<div class="content">
+			<p>content</p>
+		</div>
+	</body>
+</html>

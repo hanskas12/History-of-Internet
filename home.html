@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>History of Internet</title>
+
+		<!--External CSS-->
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
+		<!--Reference: http://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar_click-->
+
+		<script>
+			/* When the user clicks on the button,
+			toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			    document.getElementById("myDropdown").classList.toggle("show");
+			}
+
+			// Close the dropdown if the user clicks outside of it
+			window.onclick = function(e) {
+				  if (!e.target.matches('.dropbtn')) {
+
+					    var dropdowns = document.getElementsByClassName("dropdown-content");
+					    for (var d = 0; d < dropdowns.length; d++) {
+						      var openDropdown = dropdowns[d];
+						      if (openDropdown.classList.contains('show')) {
+						        openDropdown.classList.remove('show');
+						      }
+					    }
+				  }
+			}
+		</script>
+
+	</head>
+	<body>
+		<div id="header">
+
+			<a href="#">
+				<img src="images/header-icon2.png" alt="header-icon" style="width:50px;height:50px;" id="header-icon">
+			</a>
+
+			<div id="navbar">
+				<ul>
+				  <li><a href="home.html">Home</a></li>
+				  <li><a href="history.html">History</a></li>
+				  <li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+
+			</div>
+
+		</div><!--End of header-->
+
+		<div id="page-body">
+			
+			<div id="page-icon-container">
+				<div id="page-icon">
+					<img src="images/page-icon.png" alt="page-icon" id="page-icon">
+				</div>
+			</div>
+
+			
+			<div>
+				<div class="subtopic-content" id="subtopic-1">
+					<div class="subtopic-content-text">
+						<p>Is a large system with the global network that connects computers around the world to exchange data, news, opinions and allows people to share information and communicate.</p>
+					</div>
+				</div>
+			
+				<div class="subtopic" id="subtopic-1">
+					<div id="subtopic-text">
+						<h1>What is Internet?</h1>
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<div class="subtopic-content" id="subtopic-2">
+					<div class="subtopic-content-text">
+						<ul>
+						  <li>
+						  	<p>Web - Billions of web pages that are viewed by a web browser.</p>
+						  </li>
+						  <li>
+						  	<p>Email - Sending and receiving messages online.</p>
+						  </li>
+						  <li>
+						  	<p>Social Media - Websites that allows people to share comments, photos, and videos like Facebook and Twitter.</p>
+						  </li>
+						  <li>
+						  	<p>Online Gaming - Games that are connected with the internet allowing people to play with and against each other.</p>
+						  </li>
+						  <li>
+						  	<p>Software Updates - Operating system and application updates that are downloaded from the internet.</p>
+						  </li>
+						</ul>
+					</div>
+				</div>
+				<div class="subtopic" id="subtopic-2">
+					<div id="subtopic-text">
+						<h1>Use of Internet</h1>
+					</div>
+				</div>
+			</div>
+				
+			
+			<div>
+				<div class="subtopic-content" id="subtopic-3">
+					<div class="subtopic-content-text">
+						<ul>
+						  <li>
+						  	<p>According to the Internet Live Stats, 3,420,580,100 internet users, 3 billion Google searches, 157 billion emails sent and 1.7 billion Facebook users were estimated on July 26, 2016 and still increasing in a fast rate. </p>
+						  </li>
+						  <li>
+						  	<p>Nearly 40 percent of the World’s population represents the number of internet users.</p>
+						  </li>
+						  <li>
+						  	<p>The largest percentage of internet users is from Asia followed by America then Europe.</p>
+						  </li>
+						</ul>
+					</div>
+				</div>
+			
+				<div class="subtopic" id="subtopic-3">
+					<div id="subtopic-text">
+						<h1>Users Statistics?</h1>
+					</div>
+				</div>
+			</div>
+			
+		</div><!--End of Page Body-->>
+		
+	</body>
+</html>

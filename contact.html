@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>History of Internet</title>
+
+		<!--External CSS-->
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
+		<!--Reference: http://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_dropdown_navbar_click-->
+
+		<script>
+			/* When the user clicks on the button,
+			toggle between hiding and showing the dropdown content */
+			function myFunction() {
+			    document.getElementById("myDropdown").classList.toggle("show");
+			}
+
+			// Close the dropdown if the user clicks outside of it
+			window.onclick = function(e) {
+				  if (!e.target.matches('.dropbtn')) {
+
+					    var dropdowns = document.getElementsByClassName("dropdown-content");
+					    for (var d = 0; d < dropdowns.length; d++) {
+						      var openDropdown = dropdowns[d];
+						      if (openDropdown.classList.contains('show')) {
+						        openDropdown.classList.remove('show');
+						      }
+					    }
+				  }
+			}
+		</script>
+
+	</head>
+	<body>
+		<div id="header">
+
+			<a href="home.html">
+				<img src="images/header-icon2.png" alt="header-icon" style="width:50px;height:50px;" id="header-icon">
+			</a>
+
+			<div id="navbar">
+				<ul>
+				  <li><a href="home.html">Home</a></li>
+				  <li><a href="history.html">History</a></li>
+				  <li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+
+			</div>
+
+		</div><!--End of header-->
+
+		<div id="page-body">
+			
+			<div>
+				<div class="subtopic-content">
+					<div id="contact-content">
+						<img src="images/uplb-seal.png" alt="UPLB Logo" style="width: 250px" id="logo">
+						<img src="images/computer-science-logo.jpg" alt="Computer Science Logo" style="height: 250px" id="logo">
+					</div>
+				</div>
+
+				<div class="subtopic"  id="contact-header">
+					<div id="subtopic-text">
+						<img src="images/pic.jpg" alt="author" style="width:250px;" id="header-icon">
+					</div>
+					<div id="subtopic-text">
+						<p id="info">Name: Kim Han Sol</p><br>
+						<p id="info">Born: March 20, 1996</p><br>
+						<p id="info">Nationality: South Korean</p><br>
+					</div>
+				</div>
+			</div>
+			
+		</div><!--End of Page Body-->>
+		
+	</body>
+</html>

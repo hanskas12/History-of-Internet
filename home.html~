@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>History of Internet</title>
+		<!--Dropdown-1-->
+		<link rel="stylesheet" href="style.css">
+		
+		<!--Dropdown-2-->
+		<!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		-->
+	</head>
+	<body>
+		<div class="header">
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">Dropdown
+				<span class="caret"></span></button></button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="#">Home</a>
+					<a href="#">About</a>
+					<a href="#">Contact Us</a>
+				</div>
+			
+			<!--
+			<div class="dropdown">
+				<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+				<span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<li><a href="#">HTML</a></li>
+					<li><a href="#">CSS</a></li>
+					<li><a href="#">JavaScript</a></li>
+				</ul>
+			</div>-->
+			</div>
+			
+			<h1>HISTORY</h1>
+		</div>
+		
+		<div class="content">
+			<p>content</p>
+		</div>
+		
+		<!--Javascript for dropdown button-->
+		<script>	
+			function myFunction() {
+				document.getElementById("myDropdown").classList.toggle("show");
+			}
+			
+			onclick = function(event) {
+			  if (!event.target.matches('.dropbtn')) {
+
+			    var dropdowns = document.getElementsByClassName("dropdown-content");
+			    var i;
+			    for (i = 0; i < dropdowns.length; i++) {
+				 var openDropdown = dropdowns[i];
+				 if (openDropdown.classList.contains('show')) {
+				   openDropdown.classList.remove('show');
+				 }
+			    }
+			  }
+			}
+		</script>
+	</body>
+</html>
